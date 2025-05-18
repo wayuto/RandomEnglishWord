@@ -1,16 +1,65 @@
-# random
+# Random Flutter App
 
-A new Flutter project.
+A simple Flutter application for generating random English word pairs, with features for favoriting, viewing, and translating words.
+
+## Features
+
+- **Random Word Generation**: Tap a button to generate new English word pairs.
+- **Favorites**: Add your favorite words to a favorites list.
+- **Favorites Management**: View, remove, or clear your favorite words.
+- **Word Translation**: Tap a word to open its translation in the Cambridge Dictionary.
+- **Responsive Layout**: Adapts to different screen sizes.
+
+## Project Structure
+
+```
+lib/
+  main.dart                // App entry point
+  app/
+    app.dart               // App theme and root widget
+    appState.dart          // State management
+  pages/
+    homePage.dart          // Main navigation page
+    generatorPage.dart     // Random word generator page
+    favorites.dart         // Favorites page
+  widgets/
+    bigCard.dart           // Word display card widget
+```
+
+## Dependencies
+
+- [flutter](https://flutter.dev/)
+- [provider](https://pub.dev/packages/provider)
+- [english_words](https://pub.dev/packages/english_words)
+- [shared_preferences](https://pub.dev/packages/shared_preferences)
+- [url_launcher](https://pub.dev/packages/url_launcher)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. **Clone the repository**
+    ```bash
+    git clone <your-repo-url>
+    cd random
+    ```
 
-A few resources to get you started if this is your first Flutter project:
+2. **Install dependencies**
+    ```bash
+    flutter pub get
+    ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. **Run the app**
+    ```bash
+    flutter run
+    ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+
+> Add screenshots of your app here.
+
+## License
+
+MIT
+
+---
+
+Feel free to open issues or submit pull requests!
