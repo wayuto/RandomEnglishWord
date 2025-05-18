@@ -52,10 +52,6 @@ lib/
     flutter run
     ```
 
-## Screenshots
-
-> Add screenshots of your app here.
-
 ## License
 
 MIT
