@@ -39,7 +39,7 @@ lib/
 1. **Clone the repository**
     ```bash
     git clone https://github.com/wayuto/RandomEnglishWord.git
-    cd random
+    cd RandomEnglishWord
     ```
 
 2. **Install dependencies**
